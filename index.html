@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCore</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./public/images/code_core_logo.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div id="logo-div">
+            <a href="./index.html"><img src="./public/images/code_core_logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="name">
+            <h1>Code<span class="active">Core</span></h1>
+        </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">C Language</a>
+            <a href="#">Python</a>
+            <a href="#">Javascript</a>
+            <a href="#">HTML</a>
+            <a href="#">PHP</a>
+            <a href="#">About</a>
+        </nav>
+        <div id="hamburger-menu-toggle"><i class='bx bx-menu'></i></div>
+    </header>
+
+    <aside id="left-sidebar">
+
+    </aside>
+
+    <aside id="right-sidebar">
+        <a href="./public/api_projects/cat.html" target="_blank">Cat API</a>
+        <a href="./public/api_projects/dog.html" target="_blank">Dog API</a>
+        <a href="./public/api_projects/quote.html" target="_blank">Quote API</a>
+    </aside>
+
+    <div id="dark-overlay">
+
+    </div>
+
+    <div id="hamburger-menu">
+        <a href="#" class="active">Home</a>
+        <a href="#">C Language</a>
+        <a href="#">Python</a>
+        <a href="#">Javascript</a>
+        <a href="#">HTML</a>
+        <a href="#">PHP</a>
+        <a href="#">About</a>
+    </div>
+
+    <div id="hamburger-side-toggle"><i class='bx bx-dots-vertical-rounded'></i></box-icon></div>
+
+    <div id="hamburger-side">
+        <div id="sub-content">
+            <a href="">Sample1</a>
+            <a href="">Sample1</a>
+        </div>
+        <div id="api-links">
+        <a href="./public/api_projects/cat.html" target="_blank">Cat API</a>
+        <a href="./public/api_projects/dog.html" target="_blank">Dog API</a>
+        <a href="./public/api_projects/quote.html" target="_blank">Quote API</a>
+        </div>
+    </div>
+
+    <main>
+        <section id="home" class="active">
+            <div class="container">
+                <h2>Welcome to CodeCore — Your Guide to Essential Programming Languages</h2>
+                <p>Whether you're a curious beginner or an experienced developer looking for a quick reference, CodeCore is your go-to hub for learning about some of the most important programming languages and technologies in the digital world.</p>
+                <br>
+                <p>As you begin your coding journey or deepen your knowledge of these essential languages, having the right tools can make all the difference. Writing code becomes easier, more organized, and even more enjoyable with a powerful and intuitive development environment. Whether you're writing your first line of C code, experimenting with Python scripts, building dynamic web pages with JavaScript and HTML, or developing robust backend systems with PHP, choosing the right IDE or code editor is the first step toward a productive and rewarding experience.</p>
+                <br>
+                <h2>IDE & Code Editor Downloads</h2>
+                <p>As you begin your coding journey or deepen your knowledge of these essential languages, having the right tools can make all the difference. Writing code becomes easier, more organized, and even more enjoyable with a powerful and intuitive development environment. Whether you're writing your first line of C code, experimenting with Python scripts, building dynamic web pages with JavaScript and HTML, or developing robust backend systems with PHP, choosing the right IDE or code editor is the first step toward a productive and rewarding experience.</p>
+    
+                <h3>Visual Studio Code (VS Code)</h3>
+                <p>A free, lightweight, and powerful source-code editor developed by Microsoft. VS Code supports syntax highlighting, debugging, extensions, and integrated terminals. It’s extremely customizable and works well with almost every language, including Python, C, JavaScript, HTML, and PHP.</p>
+                <a href="https://code.visualstudio.com/download" target="_blank" class="download-link">Download Visual Studio Code</a>
+    
+                <h3>Sublime Text</h3>
+                <p>A fast and lightweight text editor with powerful features, including multi-line editing and smooth navigation. While not a full IDE, it can be enhanced with plugins to support code completion and debugging for multiple languages.</p>
+                <a href="https://www.sublimetext.com/download" target="_blank" class="download-link">Download Sublime Text</a>
+    
+                <h3>JetBrains IDEs (All-In-One Professional IDEs)</h3>
+                <p>JetBrains offers a variety of professional-grade IDEs, each tailored for specific languages — like PyCharm for Python, PhpStorm for PHP, and CLion for C/C++. Known for intelligent code completion, powerful debugging, and excellent refactoring tools.</p>
+                <a href="https://www.jetbrains.com/products/" target="_blank" class="download-link">Download JetBrains Tools</a>
+            </div>
+        </section>
+    
+        <section id="c">
+            <div class="container">
+                <div class="introduction">
+                    <div class="topic-image">
+                        <img src="./public/images/c-.png" alt="c">
+                    </div>
+        
+                    <h2>C</h2>
+                    <h3>Introduction</h3>
+                    <p>C is a general-purpose, procedural programming language developed in 1972 by Dennis Ritchie at Bell Labs. It was created as an evolution of the B language to develop system software, particularly the Unix operating system. Known for its performance, simplicity, and efficiency, C allows developers direct manipulation of hardware and memory through low-level programming, while still offering structured programming concepts. It has influenced many other programming languages, including C++, C#, and Java. C remains widely used for system programming, embedded systems, operating systems, and high-performance applications where speed and resource control are critical.</p>
+                </div>
+
+                <div class="compiler">
+                    <h2>C — Compiler Download</h2>
+                    <p>To start writing and running C programs, you’ll need a C compiler. Compilers translate your C code into machine code that your computer can understand. Some of the most popular C compilers are GCC (GNU Compiler Collection) for Linux, MinGW for Windows, and Clang for macOS. If you're using an IDE like Code::Blocks or Visual Studio, they usually come with built-in compilers.</p>
+                    <p>Recommended download:</p>
+                    <a href="https://sourceforge.net/projects/mingw/" target="_blank" class="download-link">Download GCC for Windows (MinGW)</a>
+                    <a href="https://www.codeblocks.org/downloads/" target="_blank" class="download-link">Code::Blocks IDE with built-in GCC compiler</a>
+                </div>
+
+                <div class="hello">
+                    <h2>Hello World</h2>
+                    <p>Before diving into complex programming concepts, it’s tradition to start with a simple "Hello, World!" program. This small program is more than just text on a screen — it introduces the structure of a C program and helps you understand how code is written, compiled, and executed. You’ll learn how functions, libraries, and output commands work together. Mastering this first step builds the foundation for writing more advanced programs in the future.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+    
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>#include &lt;stdio.h&gt; imports the standard input/output library so we can use functions like printf().</p>
+                    <p>int main() is the starting point of every C program.</p>
+                    <p>printf() displays text on the screen.</p>
+                    <p>return 0; signals that the program finished without errors.</p>
+                </div>
+
+                <div class="variables">
+                    <h2>Variables</h2>
+                    <p>Variables are essential building blocks in C programming. They act as containers for data values that your program can use, modify, and manipulate. In C, you must declare variables with a specific data type before using them. This teaches you the importance of memory management and type safety — two critical concepts in programming. Understanding variables will allow you to write programs that store user input, calculate numbers, and display meaningful results.</p>
+    
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int age = 20;
+    float height = 5.9;
+    char grade = 'A';
+
+    printf("Age: %d\n", age);
+    printf("Height: %.1f\n", height);
+    printf("Grade: %c\n", grade);
+
+    return 0;
+}
+                        </code></pre>
+                    </div>
+    
+                    <h4>Key Points:</h4>
+                    <p>Always specify a data type: int for integers, float for decimals, char for characters.</p>
+                    <p>Use %d, %f, and %c in printf to display variable values correctly.</p>
+                    <p>Variables make your programs dynamic and interactive.</p>
+                </div>
+                
+                <div class="conditionals">
+                    <h2>If Statements</h2>
+                    <p>In programming, making decisions based on conditions is crucial. The if statement allows your program to respond differently depending on certain values or situations. It helps introduce logic into your code, enabling you to check whether a condition is true and, if so, execute a specific block of code. This concept is key to writing programs that react intelligently rather than doing the same thing every time.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int number = 10;
+
+    if (number > 5) {
+        printf("The number is greater than 5.\n");
+    }
+
+    return 0;
+}
+                        </code></pre>
+                    </div>
+
+                    <h3>Explanation:</h3>
+                    <p>The program checks if number > 5.</p>
+                    <p>If the condition is true, it executes the code inside the braces.</p>
+                    <p>If the condition is false, it simply moves on.</p>
+
+                    <h2>If Else Statements</h2>
+                <p>While if statements are great for making a decision, sometimes you need to handle both outcomes: what happens if the condition is true and what happens if it’s not. This is where the if-else structure comes in. It allows you to define two separate paths — one for when the condition is met and another for when it’s not. This makes your program more flexible and able to handle different scenarios gracefully.</p>
+
+                <div class="code-display">
+                    <pre><code>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int number = 3;
+
+    if (number > 5) {
+        printf("Number is greater than 5.\n");
+    } else {
+        printf("Number is 5 or less.\n");
+    }
+
+    return 0;
+}
+                    </code></pre>
+                </div>
+
+                <h3>Explanation:</h3>
+                <p>If the condition is true, the if block runs.</p>
+                <p>If it’s false, the else block executes instead.</p>
+                <p>This lets your program respond differently to different conditions.</p>
+                </div>
+
+                <div class="loops">
+                    <h2>Loops</h2>
+                    <p>Loops are powerful structures that let you repeat actions without writing the same code multiple times. In C, loops are essential for performing tasks like counting, processing lists of data, or repeatedly asking for input. There are different types of loops, each useful in different situations — but all of them help your program run efficiently by automating repetitive tasks. Understanding loops will allow you to write programs that are dynamic, scalable, and more sophisticated.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+    
+int main() {
+    for (int i = 1; i &lt;= 5; i++) {
+        printf("Count: %d\n", i);
+    }
+
+    return 0;
+}
+                        </code></pre>
+                    </div>
+
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+    
+int main() {
+    int i = 1;
+
+    while (i &lt;= 5) {
+        printf("Count: %d\n", i);
+        i++;
+    }
+
+    return 0;
+}
+                        </code></pre>
+                    </div>
+
+                    <div class="code-display">
+                        <pre><code>
+#include &lt;stdio.h&gt;
+    
+
+int main() {
+    int i = 1;
+
+    do {
+        printf("Count: %d\n", i);
+        i++;
+    } while (i &lt;= 5);
+
+    return 0;
+}
+
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <section id="python">
+            <div class="container">
+                <div class="introduction">
+                    <div class="topic-image">
+                        <img src="./public/images/python.png" alt="python">
+                    </div>
+        
+                    <h2>Python</h2>
+                    <h3>Introduction</h3>
+                    <p>Praised for its simplicity and readability, Python has become one of the most popular languages in the world. Developed by Guido van Rossum in 1991, Python is used in web development, scientific computing, data analysis, artificial intelligence, automation, and more. It’s beginner-friendly, yet robust enough for large-scale enterprise solutions.</p>
+                </div>
+
+                <div class="compiler">
+                    <h2>Python — Interpreter Download</h2>
+                    <p>Python is not compiled but interpreted, meaning it runs code line by line through the Python interpreter. Before you start coding, you’ll need to install Python on your system. The official Python website provides easy installers for Windows, macOS, and Linux.</p>
+                    <p>Recommended download:</p>
+                    <a href="https://www.python.org/downloads/" target="_blank" class="download-link">Download Python</a>
+                </div>
+
+                <div class="hello">
+                    <h2>Hello World</h2>
+                    <p>When learning Python, the first step is writing a simple program that displays “Hello, World!” on the screen. This tradition exists to help beginners understand how code is structured and executed. Python is known for its simplicity — notice that you don’t need to write a lot of boilerplate code to get output. The print() function is all you need to display text or values, making Python one of the easiest languages to start with.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+print("Hello, World!")
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>print() is a built-in Python function that outputs text to the console.</p>
+                    <p>There’s no need to declare a main function or include libraries for something this simple.</p>
+                    <p>Python’s clean syntax makes programs easy to read and write.</p>
+                </div>
+
+                <div class="variables">
+                    <h2>Variables</h2>
+                    <p>Variables in Python are like containers that store different kinds of data — numbers, text, or even more complex objects. One thing that makes Python unique is that you don’t need to declare a variable’s type; the interpreter figures it out for you. This flexibility lets you focus on problem-solving instead of worrying about types.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+age = 25
+height = 5.8
+name = "Alice"
+
+print("Age:", age)
+print("Height:", height)
+print("Name:", name)
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>Python automatically detects the type (integer, float, string, etc.) based on the assigned value.</p>
+                    <p>You can use print() to display multiple variables at once.</p>
+                    <p>Variable names should be descriptive to make your code clear and easy to understand.</p>
+                </div>
+
+                <div class="conditionals">
+                    <h2>If Statements</h2>
+                    <p>if statements in Python allow your program to make decisions based on certain conditions. This is how your code can react to different situations — executing one block of code if something is true, and doing nothing if it’s not. Python uses indentation to define blocks of code, which helps keep things neat and readable.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+number = 10
+
+if number > 5:
+    print("The number is greater than 5.")
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The condition number > 5 is checked.</p>
+                    <p>If the condition is true, the indented block under if runs.</p>
+                    <p>Python uses colons (:) to indicate the start of a code block.</p>
+
+                    <h2>If Else Statements</h2>
+                    <p>While an if statement checks for one condition, if-else structures give your program two possible paths: one block for when the condition is true and another for when it’s not. This lets your code handle both outcomes gracefully, making it more interactive and intelligent.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+number = 3
+
+if number > 5:
+    print("Number is greater than 5.")
+else:
+    print("Number is 5 or less.")
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The else block runs if the if condition is false.</p>
+                    <p>Only one block will execute in an if-else structure.</p>
+                    <p>Clear indentation is crucial for avoiding errors in Python.</p>
+                </div>
+
+                <div class="loops">
+                    <h2>Loops</h2>
+                    <p>Loops are powerful tools that allow you to repeat actions without writing the same code over and over. Python supports for and while loops, and both are simple and easy to use. They help you iterate through sequences, repeat tasks, and process data in a clean and efficient way.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+for i in range(1, 6):
+print("Count:", i)
+                        </code></pre>
+                    </div>
+
+                    <div class="code-display">
+                        <pre><code>
+i = 1
+
+while i &lt;= 5:
+    print("Count:", i)
+    i += 1
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <section id="javascript">
+            <div class="container">
+                <div class="introduction">
+                    <div class="topic-image">
+                        <img src="./public/images/js.png" alt="javascript">
+                    </div>
+        
+                    <h2>Javascript</h2>
+                    <h3>Introduction</h3>
+                    <p>The language of the web, JavaScript allows websites to come alive with interactivity and dynamic content. Created by Brendan Eich in 1995, JavaScript has grown far beyond simple animations, now powering entire web applications, server-side backends, and even mobile apps, thanks to technologies like Node.js and React.</p>
+                </div>
+
+                <div class="compiler">
+                    <h2>JavaScript — No Compiler Needed</h2>
+                    <p>JavaScript is an interpreted scripting language that runs directly in your browser or through server environments like Node.js. You don’t need to download a compiler to get started — all modern browsers have built-in JavaScript engines. However, if you’d like to run JavaScript outside the browser, installing Node.js is a great option.</p>
+                    <p>Recommended download:</p>
+                    <a href="https://nodejs.org/en/download" target="_blank" class="download-link">Download Node.js</a>
+                </div>
+
+                <div class="hello">
+                    <h2>Hello World</h2>
+                    <p>JavaScript is one of the most widely used programming languages for web development. It allows you to add interactivity and dynamic behavior to web pages. Just like in other languages, a "Hello, World!" program is the first step to understanding syntax and how JavaScript interacts with the browser. In this case, we can use the console.log() function to display messages in the browser's console.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+console.log("Hello, World!");
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>console.log() prints text or values to the browser's developer console, useful for debugging.</p>
+                    <p>JavaScript can run directly in the browser or through platforms like Node.js.</p>
+                </div>
+
+                <div class="variables">
+                    <h2>Variables</h2>
+                    <p>Variables in JavaScript are containers for storing data values, such as numbers, strings, and objects. There are three main ways to declare variables: var, let, and const. var is older and less recommended, while let allows for variable reassignment, and const is used for values that shouldn't change.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+let age = 30;
+const name = "John";
+var city = "New York";
+
+console.log(age);
+console.log(name);
+console.log(city);
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>Use let when the value may change later.</p>
+                    <p>Use const for fixed values that won't change.</p>
+                    <p>var is considered outdated but still works; modern code uses let or const.</p>
+                    <p>Variable names are case-sensitive and should be descriptive.</p>
+                </div>
+
+                <div class="conditionals">
+                    <h2>If Statements</h2>
+                    <p>An if statement allows your JavaScript program to make decisions based on conditions. If the condition inside the parentheses is true, the block of code inside the curly braces {} will run.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+let score = 85;
+
+if (score >= 80) {
+    console.log("You passed!");
+}
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The condition score >= 80 checks if the score is greater than or equal to 80.</p>
+                    <p>If it’s true, the message is printed.</p>
+                    <p>Curly braces {} group the statements that belong to the if block.</p>
+
+                    <h2>If Else Statements</h2>
+                    <p>While if handles one scenario, if-else gives you two paths: if the condition is true, one block of code runs; otherwise, the else block executes. This allows programs to handle multiple situations gracefully.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+let temperature = 15;
+
+if (temperature > 20) {
+    console.log("It’s warm outside.");
+} else {
+    console.log("It’s cold outside.");
+}
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The else block is executed if the if condition is false.</p>
+                    <p>Only one of the two blocks will run.</p>
+                    <p>You can also chain multiple conditions using else if for more complex decision-making.</p>
+                </div>
+
+                <div class="loops">
+                    <h2>Loops</h2>
+                    <p>Loops are essential in JavaScript for repeating tasks without rewriting code. There are different loop types, but the most commonly used are for and while loops. Loops are used for iterating through data, running repetitive actions, or processing arrays.</p>
+
+                    <div class="code-display">
+                        <pre><code>
+for (let i = 1; i &lt;= 5; i++) {
+    console.log("Iteration:", i);
+}
+                        </code></pre>
+                    </div>
+
+                    <div class="code-display">
+                        <pre><code>
+let i = 1;
+
+while (i &lt;= 5) {
+    console.log("Iteration:", i);
+    i++;
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <section id="html">
+            <div class="container">
+                <div class="introduction">
+                    <div class="topic-image">
+                        <img src="./public/images/html-5.png" alt="html">
+                    </div>
+        
+                    <h2>HTML</h2>
+                    <h3>Introduction</h3>
+                    <p>The foundation of every webpage, HTML provides the structure and organization of content on the internet. First introduced by Tim Berners-Lee in the early 1990s, HTML uses a system of tags to define headings, paragraphs, links, images, and more. Without HTML, there would be no websites as we know them today.</p>
+                </div>
+
+                <div class="compiler">
+                    <h2>HTML — No Compiler Needed</h2>
+                    <p>HTML is a markup language, not a programming language, so it does not require a compiler or interpreter. All you need is a text editor and a web browser. Just write your HTML code in any text editor (such as VS Code, Notepad++, or even Notepad), save it with a .html extension, and open it in your browser to see the result.</p>
+                </div>
+
+                <div class="html">
+                    <h2>Basic HTML Structure</h2>
+                    <p>HTML (HyperText Markup Language) is the foundation of all web pages. It uses "tags" to describe the structure and content of a webpage. Every HTML document follows a standard structure so browsers know how to display the content. Understanding this structure is the first step to writing proper HTML.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The &lt;!DOCTYPE html&gt; at the top tells the browser to render the page using HTML5.</p>
+                    <p>The &lt;head&gt; section is not shown on the page but holds important information, like the title of the browser tab.</p>
+                    <p>The &lt;body&gt; contains everything the user sees, like text, images, and buttons.</p>
+                </div>
+
+                <div class="headings">
+                    <h2>Headings</h2>
+                    <p>HTML allows you to structure content with headings and paragraphs. Headings range from &lt;h1&gt; to &lt;h6&gt;, where &lt;h1&gt; is the most important and largest, and &lt;h6&gt; is the smallest. Paragraphs are created with the &lt;p&gt; tag and are used to display blocks of text.</p>
+                    <p>Proper use of headings is important for both visual clarity and search engine optimization (SEO). Paragraphs make text readable and separate different ideas on the page.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>Use &lt;h1&gt; only once for the main title of the page.</p>
+                    <p>Use &lt;h2&gt;, &lt;h3&gt;, and so on for subheadings to organize content.</p>
+                    <p>Paragraphs are essential for presenting information in readable blocks.</p>
+                </div>
+
+                <div class="links">
+                    <h2>Links and Images</h2>
+                    <p>Links and images are what make web pages dynamic and connected. The &lt;a&gt; tag is used to create hyperlinks, allowing users to jump to other pages or external sites. The href attribute defines the URL the link points to.</p>
+                    <p>The &lt;img&gt; tag is used to display images. It uses the src attribute to specify the file location of the image and the alt attribute to provide alternative text in case the image doesn't load or for screen readers.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;a href=&quot;https://www.example.com&quot;&gt;Visit Example Website&lt;/a&gt;
+&lt;br&gt;
+&lt;img src=&quot;my-photo.jpg&quot; alt=&quot;A picture of me smiling&quot;&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The text between &lt;a&gt; and &lt;/a&gt; is clickable and will direct the user to the link provided in href.</p>
+                    <p>The &lt;img&gt; tag does not have a closing tag; it&rsquo;s self-closing.</p>
+                    <p>Always include alt text to describe the image &mdash; it helps with accessibility and is shown if the image can't load.</p>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <section id="php">
+            <div class="container">
+                <div class="introduction">
+                    <div class="topic-image">
+                        <img src="./public/images/php.png" alt="php">
+                    </div>
+        
+                    <h2>PHP</h2>
+                    <h3>Introduction</h3>
+                    <p>A dynamic, open-source scripting language that powers countless websites and web applications. Created by Rasmus Lerdorf in 1994, PHP allows developers to generate dynamic content, manage databases, and build interactive web platforms. It’s the backbone behind popular content management systems like WordPress and remains a crucial tool for web developers worldwide.</p>
+                </div>
+
+                <div class="compiler">
+                    <h2>PHP — Interpreter Download</h2>
+                    <p>PHP runs on a server and needs a PHP interpreter to execute code. You can either install PHP directly on your system or use bundled solutions like XAMPP or WAMP, which come with Apache server, MySQL, and PHP pre-installed, making setup much easier for beginners.</p>
+                    <p>Recommended download:</p>
+                    <a href="https://www.php.net/downloads.php" target="_blank" class="download-link">Download PHP (official site)</a>
+                    <a href="https://www.apachefriends.org/download.html" target="_blank" class="download-link">Download XAMPP (easy local setup)</a>
+                </div>
+
+                <div class="basic">
+                    <h2>Basic Syntax and Echo</h2>
+                    <p>PHP is usually embedded within HTML files and starts with &lt;?php and ends with ?&gt;. Inside these tags, you can write PHP code that can perform calculations, handle logic, and interact with databases. The most basic function you'll use at the start is echo, which outputs data to the screen.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First PHP Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+    &lt;?php
+    echo &quot;Hello from PHP!&quot;;
+    ?&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The browser will show &quot;Welcome!&quot; as part of the HTML and also display &quot;Hello from PHP!&quot; from the echo statement.</p>
+                    <p>Make sure the file is saved with a .php extension and run it using a local server like XAMPP or a live server that supports PHP.</p>
+                </div>
+
+                <div class="variables">
+                    <h2>Variables and Data Types</h2>
+                    <p>In PHP, variables are containers for storing data values. You define a variable by using the dollar sign $ followed by the variable name. Unlike some languages, PHP is loosely typed &mdash; you don't need to specify the type of data you're storing. The type is determined automatically based on the assigned value.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;?php
+$name = &quot;Alice&quot;;      // String
+$age = 25;            // Integer
+$height = 5.4;        // Float
+$isStudent = true;    // Boolean
+
+echo &quot;Name: $name &lt;br&gt;&quot;;
+echo &quot;Age: $age &lt;br&gt;&quot;;
+echo &quot;Height: $height &lt;br&gt;&quot;;
+echo &quot;Student status: $isStudent&quot;;
+?&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>Notice that all variables start with $</p>
+                    <p>The &lt;br&gt; tag is used to break lines when echoing in HTML.</p>
+                    <p>You can display variables directly inside double-quoted strings.</p>
+                </div>
+
+                <div class="conditionals">
+                    <h2>If-Else Conditions and Simple Logic</h2>
+                    <p>Just like in other programming languages, PHP uses if, else if, and else statements to execute code based on certain conditions. This allows you to control the behavior of your web pages dynamically.</p>
+                    
+                    <div class="code-display">
+                        <pre><code>
+&lt;?php
+$age = 18;
+
+if ($age &lt; 18) {
+    echo &quot;You are underage.&quot;;
+} else if ($age == 18) {
+    echo &quot;You just became an adult!&quot;;
+} else {
+    echo &quot;You are an adult.&quot;;
+}
+?&gt;
+                        </code></pre>
+                    </div>
+
+                    <h4>Explanation:</h4>
+                    <p>The if condition is checked first.</p>
+                    <p>If that’s not true, PHP moves to the else if condition.</p>
+                    <p>If none of those conditions are true, the else block runs.</p>
+                    <p>This structure is essential for controlling flow in PHP applications, especially for forms and user interactions.</p>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+        <section id="about">
+            <div class="container">
+                <div class="topic-image">
+                    <img src="./public/images/code_core_logo_transparent.png" alt="logo">
+                </div>
+                <h2>About</h2>
+                <p>At CodeCore, we believe that learning to code opens doors to endless possibilities. Whether you're a complete beginner taking your first steps into programming or a seasoned developer looking for a reliable reference, our goal is to make essential programming languages and web technologies easy to understand and accessible to everyone.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <nav class="footer-nav">
+            <a href="#">Home | </a>
+            <a href="#">About | </a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="footer-center">
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://x.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <h5>&copy; 2025 | NPDR</h5>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
